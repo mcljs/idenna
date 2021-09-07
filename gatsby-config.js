@@ -161,10 +161,10 @@ flags: {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#8bbd52`,
-        theme_color: `#8bbd52`,
+        background_color: `#fff`,
+        theme_color: `#ec222c`,
         display: `minimal-ui`,
-        icon: `src/images/logo.jpg`, // This path is relative to the root of the site.
+        icon: `src/images/logo.jpeg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,

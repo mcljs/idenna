@@ -7,14 +7,14 @@
 
 
 import React from 'react';
-import Navbar from '../components/Navbar'
-//import Footer from './Footer/Footer';
 
-import Footer1 from './Footer';
+
 import ScrollToTop from './ScrollButton';
 import useDarkMode from '../hooks/useDarkMode';
 //import "./layout.css"
 import Header from './Headers/Header'
+import {Footer2} from './Footer/Footer.tsx';
+
 const Layout = ({ children }) => {
 
 useDarkMode()
@@ -30,7 +30,8 @@ useDarkMode()
       <Header/>
         <main className="dark:bg-[#121f3d]">{children}</main>
       <ScrollToTop />
-      <Footer1 />
+      <Footer2/>
+     
 
    
     </>

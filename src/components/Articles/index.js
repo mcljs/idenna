@@ -11,7 +11,7 @@ const Articles = (  ) => {
   return(
     
       <>
-        <h3 className=" py-2 bg-gradient-to-br from-[#95ca3e] to-[#85c638] text-white  text-4xl text-center font-bold dark:bg-[#98ca3f] dark:text-[#03091e]">ACTUALIDAD</h3>
+        <h3 className=" py-2 bg-red-primary text-white  text-4xl text-center font-bold dark:bg-[#98ca3f] dark:text-[#03091e]">ACTUALIDAD</h3>
         <section className="px-12 py-4 dark:bg-[#121f3d]">
   
       
@@ -75,7 +75,7 @@ const Articles = (  ) => {
           <p class="text-gray-600 mb-4">
             {featuredPost.nodes[0].frontmatter.description}
           </p>
-          <Link to={featuredPost.nodes[0].fields.slug} class="inline-block px-6 py-3 mt-2 rounded-md bg-green-700 text-gray-100">
+          <Link to={featuredPost.nodes[0].fields.slug} class="inline-block px-6 py-3 mt-2 rounded-md bg-red-primary text-gray-100">
             Leer mas
           </Link>
         </div>
@@ -88,7 +88,7 @@ const Articles = (  ) => {
          
           <div key={index}>
             <div  class="grid md:grid-cols-2 grid-cols-1 rounded w-ful md:flex-row mb-10">
-            <Img fluid={post.frontmatter.image.childImageSharp.fluid} class="block rounded-md h-64 md:h-32 m-4 md:m-0" />
+            <Img fluid={post.frontmatter.image.childImageSharp.fluid} class="block rounded-md h-64 md:h-32 m-4 md:m-0 object-cover" />
               <div class="bg-white rounded md:px-4 px-1">
              
               <div class="md:mt-0 text-gray-800 font-semibold text-xl mb-2 line-clamp-3">
@@ -97,7 +97,7 @@ const Articles = (  ) => {
               <p class="block  pl-0 pt-1 text-sm text-gray-600 line-clamp-3">
                  {post.frontmatter.description}
               </p>
- <Link to={post.fields.slug} class="inline-block px-6 py-3 mt-2 rounded-md bg-green-700 text-gray-100">
+ <Link to={post.fields.slug} class="inline-block px-6 py-3 mt-2 rounded-md bg-red-primary text-gray-100">
             Leer mas
           </Link>
             </div>

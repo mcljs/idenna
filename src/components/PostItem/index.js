@@ -4,16 +4,20 @@ import Link from '../link'
 const PostItem = ({slug,image,date,title,description,}) => (
 
 
-    <li className="m-4 ">
-      <Link className="-full border-2 border-gray-100 flex flex-col items-center justify-between rounded-lg overflow-hidden hover:scale-105 hover:shadow-xl transform transition-all ease-in-out duration-200" to={slug}>
-  <GatsbyImage className="w-full"  image={image}/>
-     <section className="p-4">
-        <h2 className="sm:text-2xl text-xl pb-5 leading-tight font-semibold dark:text-white">{title}</h2>
-        <p className="prose opacity-75 hover:opacity-100 transition-opacity duration-200 ease-in-out line-clamp-3 dark:text-[#becde3]">{description}</p>
+    <div className="col-span-4 mb-10">
+      <div className="relative w-full">
+        <Link className="group peer relative block w-full focus:outline-none" to={slug}>
+          <div className="aspect-h-4 aspect-w-3 rounded-lg"> <GatsbyImage className="flex overflow-hidden w-full rounded-lg group-hover:shadow-lg group-focus:shadow-lg duration-200 transform group-hover:-translate-y-1 group-focus:-translate-y-1 object-contain"  image={image}/> <div className="focus-ring w-full rounded-lg object-cover transition w-full max-w-md h-full backdrop-blur-xl"></div> </div> 
+     <section className="p-2">
+<span className="mt-8 text-gray-500 text-xl font-medium">{date} </span>
+        <h2 className="text-2xl font-medium md:text-3xl text-black mt-4 dark:text-white line-clamp-3">{title}</h2>
+        <p className="mt-2 prose opacity-75 hover:opacity-100 transition-opacity duration-200 ease-in-out line-clamp-3 dark:text-[#becde3] line-clamp-3">{description}</p>
       </section>
-        <span className="sm:px-8 px-5 sm:pb-8 pb-5 ml-0 sm:ml-4 text-left w-full text-gray-600 opacity-75 text-sm dark:text-[#becde3]">{date} </span>
+        
       </Link>
-    </li>
+</div>
+
+    </div>
 
 
 

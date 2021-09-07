@@ -15,7 +15,7 @@ const RecommendedPosts = ({ next, previous }) => (
          <Link
         to={previous.fields.slug}
        
-           className="block py-2 font-semibold mr-12 hover:no-underline hover:text-accent-3 hover:text-green-800 dark:hover:text-gray-300"
+           className="block py-2 font-semibold mr-12 hover:no-underline hover:text-accent-3 hover:text-red-700 dark:hover:text-gray-300"
       >
         {previous.frontmatter.title}
       </Link>
@@ -29,7 +29,7 @@ const RecommendedPosts = ({ next, previous }) => (
          <Link
         to={next.fields.slug}
    
-        className="block py-2 ml-8 font-semibold hover:no-underline hover:text-accent-3 hover:text-green-800 dark:hover:text-gray-300"
+        className="block py-2 ml-8 font-semibold hover:no-underline hover:text-accent-3 hover:text-red-700 dark:hover:text-gray-300"
       >
         {next.frontmatter.title}
         </Link>

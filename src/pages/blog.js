@@ -4,6 +4,7 @@ import SEO from "../components/Seo"
 import HeaderLayout from "../components/HeaderLayout"
 import PostItem from "../components/PostItem"
 import { useStaticQuery, graphql } from "gatsby"
+import ImageBlog from '../images/blog.jpeg'
 
 const Blog = () =>{
 
@@ -41,11 +42,11 @@ const postList = allMarkdownRemark.edges
     <SEO title="Noticias" />
     <HeaderLayout 
       heading="Noticias"
-      image="https://res.cloudinary.com/dk5bvgq20/image/upload/v1616367497/assets/noticia-min_cvatoc.jpg" />
+      image={ImageBlog} />
     <section className="sm:py-10   mx-auto px-8 dark:bg-[#03091e]">
  
    
-  <ul className="grid md:grid-cols-2 grid-cols-1 sm:gap-8 gap-5 dark:bg-[#03091e]">
+  <div className="relative grid gap-x-4 grid-cols-4 md:grid-cols-8 lg:gap-x-6 lg:grid-cols-12 mx-auto max-w-7xl mb-64 dark:bg-[#03091e]">
 {postList.map(
         ({
           node: {
@@ -64,7 +65,7 @@ const postList = allMarkdownRemark.edges
           />
 
         ))}
-  </ul>
+  </div>
   </section>
   </Layout>
 

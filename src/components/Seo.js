@@ -34,7 +34,7 @@ function SEO({ description, lang, meta,image, title }) {
   const imageUrl = `http://misionarbol.minec.gob.ve${image}`
 
   const ogImage = 
-    image || 'http://misionarbol.minec.gob.ve/static/682c4dfb4d5442c930e62265fc36b09a/logo.jpeg'
+    image || 'https://i.imgur.com/KNyRczl.jpeg'
 
 
 

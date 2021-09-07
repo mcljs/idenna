@@ -30,7 +30,7 @@ import TagPill from '../components/TagPill'
           {post.frontmatter.date} 
         </p>
        
-        <h1 className="post-title dark:text-white">{post.frontmatter.title}</h1>
+        <h1 className="text-gray-800 max-w-screen-md mx-auto sm:px-0 px-5 leading-tight mt-4 mb-4 sm:text-5xl text-3xl font-bold text-left dark:text-white">{post.frontmatter.title}</h1>
       </div>
       <div className="markdown dark:text-white">
         <S.MainContent> 
@@ -43,7 +43,7 @@ import TagPill from '../components/TagPill'
         </section>
       </div>
  
-<img src="https://res.cloudinary.com/dk5bvgq20/image/upload/v1616366412/assets/Eslogan_de_Misi%C3%B3n_%C3%81rbol_PNG_jcegjs.png" alt="Eslogan" className="mx-auto pt-7 w-24"/ >
+
 
  <Share
           url={`http://misionarbol.minec.gob.ve${post.fields.slug}`}

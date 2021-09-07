@@ -59,7 +59,7 @@ const TagIndex = () => {
               <div key={post.id} className="mb-1">
                 <Link
                   to={post.fields.slug}
-                  className="hover:text-accent-3 hover:text-green-700 dark:text-[#becde3]"              >
+                  className="hover:text-accent-3 hover:text-red-700 dark:text-[#becde3]"              >
                   {post.frontmatter.title}
                   {` `}
                 </Link>

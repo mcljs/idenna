@@ -60,7 +60,7 @@ const isSSR = typeof window === "undefined"
                 <h1 className="dark:text-gray-200 sm:text-5xl md:text-6xl text-4xl font-extrabold tracking-tight text-gray-900">
                   <span className="xl:inline block">Instituto Autonómo Consejo Nacional</span>{' '}
                   <span className="text-primary-600 dark:text-primary-500 xl:inline block">
-                    de Derechos del Niño, Niña y Adolescentes
+                    de Derechos de Niños, Niñas y Adolescentes
                   </span>
                 </h1>
                 <p className="dark:text-gray-300 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0 mt-3 text-base text-gray-500">
@@ -102,10 +102,7 @@ const isSSR = typeof window === "undefined"
       </div>
       
     <Articles />
-    <BannerCenso />
-  <Banner />
-   <Vertices />
-    <InfoSection {...InfoData}/>  
+
  <Tweet />
     <Email />  
   </Layout>
