@@ -41,7 +41,7 @@ const BibliotecaPostPage = ({ data }) => {
               </h2>
               <h3 className="mt-4 text-2xl dark:text-white">Por {data.mdx.frontmatter.autor}</h3>
               <Link to={data.mdx.frontmatter.descarga}>
-            <button className="dark:bg-[#98ca3f] dark:text-[#03091e] mt-4 text-white bg-yellow-1100 hover:bg-grey text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
+            <button className="dark:bg-[#98ca3f] dark:text-[#03091e] mt-4 text-white bg-red-primary text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
   <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
   <span>Descargar</span>
 </button>
