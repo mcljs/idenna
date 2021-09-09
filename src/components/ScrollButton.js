@@ -38,7 +38,7 @@ export default function ScrollToTop() {
       {isVisible && (
         <div
           onClick={scrollToTop}
-          className="fixed p-2 rounded-lg  bg-red-primary bottom-3 right-3 lg:bottom-5 lg:right-5 cursor-pointer bg-[#1e5fab] dark:text-[#03091e]"
+          className="fixed p-2 rounded-lg  bg-red-primary bottom-3 right-3 lg:bottom-5 lg:right-5 cursor-pointer  dark:text-[#03091e]"
         >
           < FaArrowCircleUp className="text-white text-3xl  dark:text-white" />  
         </div>

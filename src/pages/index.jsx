@@ -71,8 +71,8 @@ const isSSR = typeof window === "undefined"
                 <div className="sm:flex sm:justify-center sm:mt-8 lg:justify-start mt-5">
                   <div className="rounded-md shadow">
                     <Link
-                      className="flex justify-center items-center py-3 w-full min-w-[160px] text-base font-medium text-white bg-[#1e5fab] hover:bg-primary-700 rounded-md border border-transparent md:text-lg"
-                      href="/blog"
+                      className="flex justify-center items-center py-3 w-full min-w-[160px] text-base font-medium text-red-primary bg-red-100 rounded-md border border-transparent md:text-lg "
+                      href="https://twitter.com/idennadistrito?lang=es"
                       
                     >
                       Twitter
@@ -81,7 +81,7 @@ const isSSR = typeof window === "undefined"
                   <div className="sm:mt-0 sm:ml-3 mt-3">
                     <Link
                       className="flex justify-center items-center py-3 w-full min-w-[160px] text-base font-medium text-primary-700 bg-[#ec222c] hover:bg-primary-200 rounded-md border border-transparent md:text-lg text-white"
-                      to="/contacto"
+                      to="https://www.instagram.com/idenna_oficial/?hl=es-la"
                       
                     >
                      Instagram

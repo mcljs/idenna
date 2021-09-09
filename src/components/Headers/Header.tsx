@@ -13,6 +13,7 @@ import {StaticImage} from "gatsby-plugin-image"
 // eslint-disable-next-line spaced-comment
 import Banner from '../../images/banner.jpg'
 import Logo from '../../images/logo.svg'
+import Search from '../Search'
 export const Header = (): JSX.Element => {
 
   const { y } = useWindowScroll()
@@ -79,7 +80,7 @@ export const Header = (): JSX.Element => {
               </Link>
    <Link
                 className="py-7 px-3 text-sm font-medium text-[#ec222c] dark:text-primary dark:hover:text-white focus-visible:rounded focus-visible:ring-2 focus-visible:ring-black transition duration-200 focus:outline-none"
-                to="/blog"
+                to="/contact"
                 title="Solicitudes"
               >
                 Solicitudes
@@ -87,7 +88,7 @@ export const Header = (): JSX.Element => {
                           </div>
 
             <div className="flex ml-3 space-x-6">
-      
+              <Search /> 
             </div>
           </div>
 

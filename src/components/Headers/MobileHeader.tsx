@@ -19,6 +19,7 @@ import clsx from 'clsx'
 import Navigation from './Navigation'
 import MenuToggle from './MenuToggle'
 import {StaticImage} from 'gatsby-plugin-image'
+import Search from '../Search'
 
 
 
@@ -48,7 +49,7 @@ const items = [
   {
     icon: ClipboardIcon,
     label: 'Solicitudes',
-    slug: '/solicitudes',
+    slug: '/contact',
   },
 ]
 
@@ -76,7 +77,7 @@ const MobileHeader = (): JSX.Element => {
     >
     
         <div className="fixed top-3 left-6 z-50 py-1 bg-white dark:bg-secondary bg-opacity-70 dark:bg-opacity-60 rounded saturate-[180%] backdrop-filter backdrop-blur-[20px] md:hidden">
-          <StaticImage src="../../images/logo.jpeg" alt="logo" className="w-20 h-8"/>
+          <StaticImage src="../../images/logo.svg" alt="logo" className="w-20 h-8"/>
         </div>
     
 
@@ -92,7 +93,7 @@ const MobileHeader = (): JSX.Element => {
      
 
       <div className="flex absolute top-2 right-20 z-[100] justify-center items-center p-2 w-12 h-12 bg-white dark:bg-primary rounded-full focus:ring-2 focus:ring-primary focus:outline-none">
-      
+        <Search/> 
       </div>
 
       <MenuToggle isOpen={isOpen} toggle={toggleOpen} />
