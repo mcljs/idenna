@@ -6,7 +6,7 @@ import {
   BookOpenIcon,
   HomeIcon,
   IdentificationIcon,
-  MailIcon,
+
   RssIcon,
 } from '@heroicons/react/outline'
 
@@ -56,16 +56,6 @@ const items = [
 const MobileHeader = (): JSX.Element => {
   const [isOpen, toggleOpen] = React.useState(false)
   const containerRef = React.useRef(null)
-
-
-
-  React.useMemo(() => {
-    if (isOpen) {
-      document.body.classList.add('overflow-hidden')
-    } else {
-      document.body.classList.remove('overflow-hidden')
-    }
-  }, [isOpen])
 
   return (
     <div

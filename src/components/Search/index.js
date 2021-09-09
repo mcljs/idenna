@@ -5,7 +5,7 @@ import { useHotkeys } from 'react-hotkeys-hook'
 import { useClickAway } from 'react-use'
 import SEO from "../Seo"
 import SearchForm from './search-form'
-const Search = ({ data, location }) =>{
+const Search = ({ data, location }) => {
 const [open, setOpen] = React.useState(false)
   const [search, setSearch] = React.useState('')
 
