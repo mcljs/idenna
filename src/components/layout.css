@@ -26,3 +26,9 @@
   border: none;
 
 }
+
+.background-image{
+background: url("../images/bg_bicentenario_carabobo.jpg")  center center/cover no-repeat;
+    height: 20vh;
+    width: 100%;
+}

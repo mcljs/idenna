@@ -1,10 +1,12 @@
 import * as React from 'react'
 import { Dialog, Transition } from '@headlessui/react'
-import { BellIcon } from '@heroicons/react/solid'
+import { SearchIcon } from '@heroicons/react/solid'
+import { Index } from "lunr"
 import { useHotkeys } from 'react-hotkeys-hook'
 import { useClickAway } from 'react-use'
-import SEO from "../Seo"
-import SearchForm from './search-form'
+import { Link, graphql } from "gatsby"
+
+import SearchForm from '../components/Search/search-form'
 const Search = ({ data, location }) => {
 const [open, setOpen] = React.useState(false)
   const [search, setSearch] = React.useState('')
@@ -23,9 +25,10 @@ useHotkeys('cmd+k', () => setOpen(true))
   // URLSearchParams provides a native way to get URL params
   // location.search.slice(1) gets rid of the "?"
  
-
-
   // LunrIndex is available via page query
+console.log(data);
+
+
 
   // lunr in action here
 
@@ -37,7 +40,7 @@ useHotkeys('cmd+k', () => setOpen(true))
         title="cmd+k OR ctrl+k"
         type="button"
       >
-        <BellIcon className="w-6 h-6 text-red-600 dark:text-white" />
+        <SearchIcon className="w-6 h-6 text-red-600 dark:text-white" />
       </button>
 <Transition.Root as={React.Fragment} show={open} >
         <Dialog
@@ -79,7 +82,7 @@ useHotkeys('cmd+k', () => setOpen(true))
                 leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
               >
                 {/* Adding an extra div to avoid issues with Ref */}
-                <div className="transition-all transform">
+                <div className="transition-all transform"  location={location} >
                   <div
                     className="flex flex-col px-6 mx-auto w-full max-w-[47.375rem] min-h-0 bg-white rounded-[1rem] shadow-search"
                     ref={boxRef}
@@ -94,4 +97,9 @@ useHotkeys('cmd+k', () => setOpen(true))
       </Transition.Root>
   </>
 )}
+
+
+
 export default Search
+
+

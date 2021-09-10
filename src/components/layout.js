@@ -14,7 +14,8 @@ import useDarkMode from '../hooks/useDarkMode';
 //import "./layout.css"
 import Header from './Headers/Header'
 import {Footer2} from './Footer/Footer.tsx';
-
+import './layout.css'
+import Banner from '../images/banner.png'
 const Layout = ({ children }) => {
 
 useDarkMode()
@@ -27,6 +28,7 @@ useDarkMode()
     <>
       {/*<Global styles={globalStyles}/>*/}    
       {/* <Navbar  />*/}
+       
       <Header/>
         <main className="dark:bg-[#121f3d]">{children}</main>
       <ScrollToTop />

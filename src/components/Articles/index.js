@@ -69,7 +69,7 @@ const Articles = (  ) => {
                     .childImageSharp.fluid
                 } class="rounded-md object-cover w-full h-64"/>
           
-          <h1 class="text-gray-800 text-4xl font-bold mt-2 mb-2 leading-tight">
+          <h1 class="text-gray-800 md:text-4xl  text-xl font-bold mt-2 mb-2 leading-tight">
             {featuredPost.nodes[0].frontmatter.title}
           </h1>
           <p class="text-gray-600 mb-4">

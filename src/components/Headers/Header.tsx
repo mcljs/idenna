@@ -11,8 +11,8 @@ import MobileHeader from './MobileHeader'
 //import type { MyLocale } from 'i18n'
 import {StaticImage} from "gatsby-plugin-image"
 // eslint-disable-next-line spaced-comment
-import Banner from '../../images/banner.jpg'
-import Logo from '../../images/logo.svg'
+import Banner from '../../images/banner.png'
+import Logo from '../../images/INDENNA LOGO.png'
 import Search from '../Search'
 export const Header = (): JSX.Element => {
 
@@ -21,19 +21,19 @@ export const Header = (): JSX.Element => {
 
   return (
     <>
-  <img className="dark:bg-[#0e182a] bg-[#98b63e] bg-cover bg-center mb-2 w-full h-[50px] sm:h-[114px]"  src={Banner}  />
+ <img className="dark:bg-[#0e182a] bg-red-primary bg-cover bg-center w-full h-full sm:h-[144px] flex  top-0 z-50" alt={Banner} src={Banner}  />
     <header
       className={clsx(
         'flex sticky top-0 z-50 items-center w-full h-16 bg-gray-100 dark:bg-secondary-500 shadow dark:shadow-none transition-transform duration-150 transform md:h-auto',
         prevY
-          ? y < 76 || prevY > y
+          ? y < 276 || prevY > y
             ? 'translate-y-0'
             : '-translate-y-full'
           : 'translate-y-0'
       )}
       id="sticky-nav"
     >
-
+ 
 
       <div className="hidden relative md:flex md:flex-1 md:px-8">
 
@@ -44,7 +44,7 @@ export const Header = (): JSX.Element => {
               to="/"
               title='Inicio'
             >
-              <img src={Logo} alt="logo" className="w-20 h-16"/>
+              <img src={Logo} alt="logo" className="w-28 h-16 -mt-6"/>
                         </Link>
           </div>
 

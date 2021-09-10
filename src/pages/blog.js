@@ -46,7 +46,7 @@ const postList = allMarkdownRemark.edges
     <section className="sm:py-10   mx-auto px-8 dark:bg-[#03091e]">
  
    
-  <div className="relative grid gap-x-4 grid-cols-4 md:grid-cols-8 lg:gap-x-6 lg:grid-cols-12 mx-auto max-w-7xl mb-64 dark:bg-[#03091e]">
+  <div className="mt-2 relative grid gap-x-4 grid-cols-4 md:grid-cols-8 lg:gap-x-6 lg:grid-cols-12 mx-auto max-w-7xl mb-64 dark:bg-[#03091e]">
 {postList.map(
         ({
           node: {
