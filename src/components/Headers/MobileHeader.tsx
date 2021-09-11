@@ -6,7 +6,7 @@ import {
   BookOpenIcon,
   HomeIcon,
   IdentificationIcon,
-
+  PhotographIcon,
   RssIcon,
 } from '@heroicons/react/outline'
 
@@ -45,7 +45,11 @@ const items = [
     label: 'Biblioteca',
     slug: '/biblioteca',
   },
-
+  {
+    icon: PhotographIcon,
+    label: 'Galería',
+    slug: '/gallery',
+  },
   {
     icon: ClipboardIcon,
     label: 'Solicitudes',

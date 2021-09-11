@@ -78,6 +78,13 @@ export const Header = (): JSX.Element => {
               >
                 Biblioteca
               </Link>
+ <Link
+                className="py-7 px-3 text-sm font-medium text-[#ec222c] dark:text-primary dark:hover:text-white focus-visible:rounded focus-visible:ring-2 focus-visible:ring-black transition duration-200 focus:outline-none"
+                  to="/gallery"
+                  title="Galería"
+              >
+                Galería
+              </Link>
    <Link
                 className="py-7 px-3 text-sm font-medium text-[#ec222c] dark:text-primary dark:hover:text-white focus-visible:rounded focus-visible:ring-2 focus-visible:ring-black transition duration-200 focus:outline-none"
                 to="/contact"

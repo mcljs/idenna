@@ -4,7 +4,7 @@ import {Image} from '../components/Gallery/Images';
 import Instagram from '../components/Gallery'
 import Layout from '../components/layout';
 import SEO from '../components/Seo'
-
+import SimpleReactLightbox from 'simple-react-lightbox';
 
 const Gallery = (  ) => {
 
@@ -20,9 +20,9 @@ const Gallery = (  ) => {
         <hr className="nt-8 border-t-2 w-20 mx-auto"/>
       </h1>
     </header>
-
+<SimpleReactLightbox>
       <Image />
-
+</SimpleReactLightbox>
 </div>
        </Layout>
   );

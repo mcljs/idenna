@@ -71,6 +71,7 @@
     "react-typography": "^0.16.19",
     "react-use": "^17.3.1",
     "react-visibility-sensor": "^5.1.1",
+    "simple-react-lightbox": "^3.6.9-0",
     "striptags": "^3.2.0",
     "styled-components": "^5.2.3",
     "styled-media-query": "^2.1.2",
