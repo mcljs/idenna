@@ -11,7 +11,7 @@ const Contact = (  ) => (
         <div className="max-w-md mx-auto my-10 bg-white p-5 rounded-md shadow-sm dark:bg-[#24385b]">
             <div className="text-center">
                 <h1 className="my-3 text-3xl font-semibold text-gray-700 dark:text-gray-200">Solicitudes del Poder Popular</h1>
-                <p className="text-gray-400 dark:text-gray-400">Se partidario de escribir una solicitud a la Institución.</p>
+                <p className="text-gray-400 dark:text-gray-400">Para realizar alguna solicitud, complete la siguiente información:</p>
             </div>
             <div className="m-7">
                 <form action="https://formspree.io/f/xeqvqwdn" method="POST" id="form">
@@ -24,12 +24,12 @@ const Contact = (  ) => (
                         <input type="text" name="name" id="name" placeholder="Michael Chacón" required className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
                     </div>
                     <div class="mb-6">
-                        <label for="email" className="block mb-2 text-sm text-gray-600 dark:text-gray-400">Correo Electronico</label>
+                        <label for="email" className="block mb-2 text-sm text-gray-600 dark:text-gray-400">Correo Electrónico</label>
                         <input type="email" name="email" id="email" placeholder="idenna@gmail.com" required className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
                     </div>
                     <div className="mb-6">
 
-                        <label for="phone" class="text-sm text-gray-600 dark:text-gray-400">Numero de Telefono</label>
+                        <label for="phone" class="text-sm text-gray-600 dark:text-gray-400">Número de Teléfono</label>
                         <input type="text" name="phone" id="phone" placeholder="0426-999-99-99" required className="w-full px-3 py-2 placeholder-gray-300 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-indigo-100 focus:border-indigo-300 dark:bg-gray-700 dark:text-white dark:placeholder-gray-500 dark:border-gray-600 dark:focus:ring-gray-900 dark:focus:border-gray-500" />
                     </div>
                     <div class="mb-6">
