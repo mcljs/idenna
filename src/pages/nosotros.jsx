@@ -90,7 +90,7 @@ const Nosotros = () => (
                      Programas de Atención
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-700 dark:text-[#becde3]">
-                    - Atender a niños, niños y adolescentes que ingresan con una medida de protección, con problemas de adicción, con discapacidad y trastorno por déficit de atención.<br/> <br/>
+                    - Atender a niños, niñas y adolescentes que ingresan con una medida de protección, con problemas de adicción, con discapacidad y trastorno por déficit de atención.<br/> <br/>
                    - Ofrecer atención ambulatoria a niños, niñas y adolescentes con alta vulnerabilidad. <br/> <br/>
                   -  Impulsar la reintegración familiar y la participación en cuanto a los procesos de formulación, ejecución y seguimiento de políticas públicas. <br/> <br/> - Difundir herramientas de formación y orientación vocacional
 
