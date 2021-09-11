@@ -25,6 +25,10 @@ const navigation = {
       name: 'Biblioteca',
       href: '/biblioteca',
     },
+  {
+      name: 'Galería',
+      href: '/gallery',
+    },
     {
       name: 'Solicitudes',
       href: '/solicitudes',

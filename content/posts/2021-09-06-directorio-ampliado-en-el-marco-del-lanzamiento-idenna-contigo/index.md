@@ -17,7 +17,7 @@ Con motivo del lanzamiento del plan de ofensiva social "IDENNA Contigo" la presi
 
 En dicho encuentro también participaron Alejandro Raga Gerente General, el Dr. Luiyer Barreto Guevara Director del Despacho y Miguel Franco Coordinador Nacional de Redes Sociales, quienes también generaron aportes que permitieron desarrollar un intercambio de ideas originando de esta forma un espacio de construcción colectiva de cara al proceso de fortalecimiento de la gestión institucional y política.
 
-![IDENNA-3](./photo_2021-09-10_10-50-14 (2).jpg)
+![IDENNA-3](./photo_2021-09-10_10-50-14-421412312.jpg)
 
 Por último se anunció el relanzamiento de algunos programas preventivos que contribuirán a potenciar el trabajo que desarrolla día a día la familia del IDENNA a lo largo y ancho del territorio nacional. 
 
