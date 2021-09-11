@@ -58,16 +58,16 @@ const isSSR = typeof window === "undefined"
             <main className="sm:px-6 sm:pt-16 lg:px-8 lg:pt-20 xl:pt-28 max-w-screen-xl px-4 pt-24 mx-auto">
               <div className="sm:text-center lg:text-left">
                 <h1 className="dark:text-gray-200 sm:text-5xl md:text-6xl text-4xl font-extrabold tracking-tight text-gray-900">
-                  <span className="xl:inline block">Instituto Autonómo Consejo Nacional</span>{' '}
+                  <span className="xl:inline block">Instituto Autónomo Consejo Nacional</span>{' '}
                   <span className="text-primary-600 dark:text-primary-500 xl:inline block">
                     de Derechos de Niños, Niñas y Adolescentes
                   </span>
                 </h1>
-                <p className="dark:text-gray-300 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0 mt-3 text-base text-gray-500">
-                  Los niños y niñas, representan el futuro del pueblo venezolano, son mi más grande inspiración para luchar
+                <p className="dark:text-gray-300 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0 mt-3 text-base text-gray-500 italic">
+                  "Los niños y niñas, representan el futuro del pueblo venezolano, son mi más grande inspiración para luchar"
               
                 </p>
-                <p className="dark:text-gray-300 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0 mt-3 text-base text-gray-500"><b>- Comandante Eterno Hugo Rafael Chávez Fria</b></p>
+                <p className="dark:text-gray-300 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0 mt-3 text-base text-gray-500"><b>- Comandante Eterno Hugo Rafael Chávez Frías</b></p>
                 <div className="sm:flex sm:justify-center sm:mt-8 lg:justify-start mt-5">
                   <div className="rounded-md shadow">
                     <Link

@@ -87,12 +87,12 @@ const Nosotros = () => (
               
 
 <h3 className="text-3xl font-semibold dark:text-white">
-                     Programas de atención
+                     Programas de Atención
                   </h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-700 dark:text-[#becde3]">
-                    - Atienden a niños, niños y adolescentes que ingresan con una medida de protección, con problemas de adicción, con discapacidad y trastorno por déficit de atención.<br/> <br/>
-                   - Ofrecen atención ambulatoria a niños y adolescentes con alta vulnerabilidad. <br/> <br/>
-                  -  Buscan la reintegración familiar, impulsar la participación en cuanto a los procesos de formulación, ejecución y seguimiento de políticas públicas. <br/> <br/> - Comparten herramientas de formación y orientación vocacional
+                    - Atender a niños, niños y adolescentes que ingresan con una medida de protección, con problemas de adicción, con discapacidad y trastorno por déficit de atención.<br/> <br/>
+                   - Ofrecer atención ambulatoria a niños y adolescentes con alta vulnerabilidad. <br/> <br/>
+                  -  Buscar la reintegración familiar, impulsar la participación en cuanto a los procesos de formulación, ejecución y seguimiento de políticas públicas. <br/> <br/> - Difundir herramientas de formación y orientación vocacional
 
                   </p>
               </div>
@@ -114,10 +114,10 @@ const Nosotros = () => (
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold dark:text-white">
-                  Objetivos
+                  Objetivo
                 </h2>
                 <p className="text-lg leading-relaxed m-4 text-gray-600 dark:text-[#becde3]">
-            Asegurar los derechos humanos de la infancia y la adolescencia (…) mediante la formulación, coordinación, integración, orientación, ejecución, evaluación y control de políticas, programas y acciones de interés público que ayuden a garantizar los deberes y derechos de todos los niños y adolescentes como sujetos sociales de derecho                </p>
+            Asegurar los derechos humanos de la infancia y la adolescencia (…) mediante la formulación, coordinación, integración, orientación, ejecución, evaluación y control de políticas, programas y acciones de interés público que ayuden a garantizar los deberes y derechos de todos los niños y adolescentes como sujetos sociales de derecho.                </p>
               </div>
             </div>
             <div className="flex w-full p-4 mr-2 bg-white rounded shadow-xl md:h-auto sm:h-40 justify-center">

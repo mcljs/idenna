@@ -20,7 +20,7 @@ import TagPill from '../components/TagPill'
       <SEO title={post.frontmatter.title}
         description={post.frontmatter.description}
         //image={post.frontmatter.image}
-        image={`https://mision-arbol.vercel.app${post.frontmatter.image?.publicURL}`}
+        image={`https://idenna.vercel.app${post.frontmatter.image?.publicURL}`}
         />
 
         <div className="mt-10 sm:mt-24 ">
@@ -46,7 +46,7 @@ import TagPill from '../components/TagPill'
 
 
  <Share
-          url={`http://misionarbol.minec.gob.ve${post.fields.slug}`}
+          url={`https://idenna.vercel.app${post.fields.slug}`}
 title={title}
       twitterHandle={twitterHandle}
         />

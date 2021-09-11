@@ -31,7 +31,7 @@ function SEO({ description, lang, meta,image, title }) {
   const metaDescription = description || site.siteMetadata.description
 
   
-  const imageUrl = `http://misionarbol.minec.gob.ve${image}`
+  const imageUrl = `https://idenna.vercel.app${image}`
 
   const ogImage = 
     image || 'https://i.imgur.com/KNyRczl.jpeg'
@@ -48,7 +48,7 @@ function SEO({ description, lang, meta,image, title }) {
       meta={[
         {
           name: `aplication-name`,
-          content: 'Misión Arbol'
+          content: 'IDENNA'
         },
         {
           name: `description`,
