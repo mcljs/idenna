@@ -8,8 +8,8 @@ const Email = () => {
         <div class="w-full max-w-6xl mx-auto pb-5">
             <div class="-mx-3 md:flex items-center">
                 <div class="px-3 md:w-2/3 mb-10 md:mb-0">
-                    <h1 class="text-6xl md:text-8xl font-bold mb-5 leading-tight">Boletin  <br class="hidden md:block"/>Informativo.</h1>
-                    <h3 class="text-gray-600 mb-7 leading-tight">Mantente al dia con nuestras noticias y publicaciones nuevas!.</h3>
+                    <h1 class="text-6xl md:text-8xl font-bold mb-5 leading-tight">Boletín  <br class="hidden md:block"/>Informativo.</h1>
+                    <h3 class="text-gray-600 mb-7 leading-tight">Mantente al dia con nuestras noticias y nuevas publicaciones!.</h3>
                     <div>
                         <span class="inline-block w-40 h-1 rounded-full bg-red-primary"></span>
                         <span class="inline-block w-3 h-1 rounded-full bg-red-primary ml-1"></span>

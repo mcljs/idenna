@@ -101,7 +101,7 @@ export const Footer2 = (): JSX.Element => {
           ))}
         </div>
         <p className="mt-8 text-base text-center text-gray-400">
-          &copy; {new Date().getFullYear()} Instituto Autonómo Consejo Nacional de Derechos de Niños, Niñas y Adolescentes.{' '} Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} Instituto Autónomo Consejo Nacional de Derechos de Niños, Niñas y Adolescentes.{' '} Todos los derechos reservados.
          
         </p>
       </div>
