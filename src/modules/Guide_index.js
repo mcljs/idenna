@@ -37,44 +37,12 @@ const Guide = () => {
 
        </div>
 
-          <Tabs>
-
-              <Tab className="dark:bg-[#24385b] dark:hover:bg-[#24385b] dark:text-white" onClick={handleTabSwitch} activeTab={activeTab === 0} id={0}>Forestales</Tab>
-
-              <Tab className="dark:bg-[#24385b] dark:hover:bg-[#24385b] dark:text-white" onClick={handleTabSwitch} activeTab={activeTab === 1} id={1}>Medicinales</Tab>
-
-              <Tab className="dark:bg-[#24385b] dark:hover:bg-[#24385b] dark:text-white" onClick={handleTabSwitch} activeTab={activeTab === 2} id={2}>Ornamentales</Tab>
-
-              
-
-            </Tabs>
+    
         
    {/* ------------ Books Section ------------ */}
- <TabContent activeTab={activeTab === 0}>
-
-   <EspList publisher="Forestales"/>
-    
-
-  </TabContent> 
 
 
- <TabContent activeTab={activeTab === 1}>
 
-     <EspList publisher="Medicinal"/>
-
-  
-
-          
-        </TabContent> 
-
- <TabContent activeTab={activeTab === 2}>
-
-     <EspList publisher="Ornamentales"/>
-
-  
-
-          
-        </TabContent> 
 
 
     </Layout>
