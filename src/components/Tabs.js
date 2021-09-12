@@ -1,4 +1,3 @@
-
 import styled from 'styled-components'
 
 export const Tabs = styled.div`
@@ -17,18 +16,18 @@ export const Tab = styled.button`
   cursor: pointer;
   position: relative;
   font-size: 90%;
-  color: ${props => (props.activeTab ? colors.orange : colors.grey)};
+  color: blue;
   border-radius: 0;
   border: none;
-  border-bottom: ${props => (props.activeTab ? `2px solid ${colors.lightOrange}` : `1px solid ${colors.lightestGrey}`)};
+  border-bottom:2px solid blue;
   background-color: white;
   height: ${props => (props.activeTab ? "3em" : "2.6em; top:.4em")};
   transition: all 200ms ease-in-out;
   :hover {
     background-color: white;
     border: none;
-    border-bottom: 1px solid ${colors.lightestGrey};
-    color: ${colors.orange};
+    border-bottom: 1px solid gray;
+    color: orange ; 
     box-shadow: none;
     transform: none;
   }
@@ -39,6 +38,4 @@ export const Tab = styled.button`
     }
 `
 
-export const TabContent = styled.div`
-  ${props => (props.activeTab ? "" : "display:none")}
-`
+

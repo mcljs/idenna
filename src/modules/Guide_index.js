@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Layout from '../components/layout'
 import SEO from "../components/Seo"
-import { Tabs, Tab, TabContent } from '../components/Tabs'
+import { Tabs, Tab, } from '../components/Tabs'
 import Link from '../components/link'
 import {EspList} from '../components/Especies/EspList'
 
