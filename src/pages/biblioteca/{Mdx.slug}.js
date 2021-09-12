@@ -25,7 +25,7 @@ const BibliotecaPostPage = ({ data }) => {
           <Link className="breadcrumblink" to="/biblioteca">
             <button className="mt-4 sm:ml-8 ml-0 ">
              
-              <span className="hover:text-yellow-1100 dark:text-white">← Regresar a la Biblioteca</span>
+              <span className="hover:text-red-primary dark:text-white">← Regresar a la Biblioteca</span>
             </button>
           </Link>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4">
@@ -40,7 +40,7 @@ const BibliotecaPostPage = ({ data }) => {
                 Editorial: {data.mdx.frontmatter.editorial}
               </h2>
               <h3 className="mt-4 text-2xl dark:text-white">Por {data.mdx.frontmatter.autor}</h3>
-              <Link to={data.mdx.frontmatter.descarga}>
+              <Link to={data.mdx.frontmatter.descarga} target={"_blank"}>
             <button className="dark:bg-[#98ca3f] dark:text-[#03091e] mt-4 text-white bg-red-primary text-grey-darkest font-bold py-2 px-4 rounded inline-flex items-center">
   <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
   <span>Descargar</span>
