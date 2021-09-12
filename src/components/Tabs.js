@@ -1,4 +1,4 @@
-import colors from '../lib/colors'
+
 import styled from 'styled-components'
 
 export const Tabs = styled.div`

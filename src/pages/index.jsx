@@ -1,23 +1,17 @@
 import {StaticImage} from "gatsby-plugin-image"
 import React from "react"
-import {Image} from "../components/Gallery/Images"
 import Link from "../components/link"
 import SEO from '../components/Seo'
 import DelayedFallback from "../components/Tweet/DelayedFallback"
-import Vertices from "../components/Vertices"
+
 import useDarkMode from "../hooks/useDarkMode"
-import image1 from '../images/bg_bicentenario_carabobo.jpg'
+
 
 const Articles = React.lazy(() => import("../components/Articles")) 
-const Banner = React.lazy(() => import('../components/Banner'))
 const Layout = React.lazy(()=> import('../components/layout'))
-const Testimonials = React.lazy(()=> import('../components/Header/Arbol'))
-const InfoSection =  React.lazy(()=> import('../components/InfoSection/InfoSection'))
 const Email = React.lazy(()=> import('../components/Email'))
-const {InfoData} = React.lazy(()=> import('../data/InfoData'))
-const VideoSection = React.lazy(()=> import('../components/VideoSection'))
 const Tweet = React.lazy(()=> import('../components/Tweet/index'))
-const BannerCenso = React.lazy(()=> import('../components/Banner/CensoNacional'))
+
 
 //import Testimonials from "../components/Header/Arbol"
 //import InfoSection from "../components/InfoSection/InfoSection"
