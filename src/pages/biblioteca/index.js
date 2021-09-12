@@ -13,13 +13,14 @@ const Biblioteca = ({ data }) => {
       <Layout>
         <SEO title="Biblioteca" />
         <div className="bg-gray-100 pb-12 dark:bg-[#121f3d]">
+  <div className="text-center max-w-xl mx-auto">
+      <h1 className="text-6xl md:text-7xl font-bold mb-24 pt-12 text-gray-600 dark:text-white">Biblioteca Digital</h1> </div>
           {posts.map(post => {
             const image = getImage(post.frontmatter.image)
 
             return (
               <>
-  <div className="text-center max-w-xl mx-auto">
-      <h1 className="text-6xl md:text-7xl font-bold mb-24 pt-12 text-gray-600 dark:text-white">Biblioteca Digital</h1> </div>
+
                 <div className="mt-6 sm:px-28 px-0">
                   <div className="dark:bg-[#24385b] bg-white rounded-lg flex sm:flex-row flex-col sm:space-x-5 space-x-0 sm:space-y-0 space-y-5 items-center sm:text-left text-center mb-4">
                     <a
