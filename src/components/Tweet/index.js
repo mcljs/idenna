@@ -38,7 +38,7 @@ const isSSR = typeof window === "undefined"
 
           {/* Section header */}
           <div className="max-w-xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="leading-tight text-3xl md:text-4xl text-white dark:text-white">Mantente activo por nuestra redes sociales</h1>
+            <h1 className="leading-tight text-3xl md:text-4xl text-white dark:text-white">Mantente activo en nuestras redes sociales</h1>
  
           </div>
 
