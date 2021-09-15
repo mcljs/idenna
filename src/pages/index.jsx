@@ -90,11 +90,9 @@ const isSSR = typeof window === "undefined"
           <div
                         className="sm:h-72 md:h-96 lg:w-full lg:h-full object-cover w-full h-56"
           >
-            <StaticImage src="../images/idenaheader.jpg" className="sm:h-72 md:h-96 lg:w-full lg:h-full object-cover w-full h-56"/>
+            <video autoPlay loop muted src={Video} className="sm:h-72 md:h-96 lg:w-full lg:h-full object-cover w-full h-56"/>
           </div>
-  <div className="video-docker absolute top-0 left-0 w-full  h-full overflow-hidden">
-        <video className="sm:h-72 md:h-96 lg:w-full lg:h-full object-cover w-full h-56" autoPlay loop muted src={Video} type='video/mp4'></video>
-    </div>
+
         </div>
       </div>
       
