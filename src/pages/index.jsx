@@ -3,7 +3,7 @@ import React from "react"
 import Link from "../components/link"
 import SEO from '../components/Seo'
 import DelayedFallback from "../components/Tweet/DelayedFallback"
-
+import Video from '../video/VID-20210915-WA0000.mp4'
 import useDarkMode from "../hooks/useDarkMode"
 
 
@@ -92,6 +92,9 @@ const isSSR = typeof window === "undefined"
           >
             <StaticImage src="../images/idenaheader.jpg" className="sm:h-72 md:h-96 lg:w-full lg:h-full object-cover w-full h-56"/>
           </div>
+  <div className="video-docker absolute top-0 left-0 w-full  h-full overflow-hidden">
+        <video className="sm:h-72 md:h-96 lg:w-full lg:h-full object-cover w-full h-56" autoPlay loop muted src={Video} type='video/mp4'></video>
+    </div>
         </div>
       </div>
       
