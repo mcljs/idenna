@@ -36,24 +36,21 @@ useEffect(
   <div className=" dark:bg-[#121f3d]">
    
     <SRLWrapper >
-        <div className="instagram-grid container mx-auto px-4 pb-12">
-            {data.allFile.edges.map((image,key) =>(
-              <div className="instagram-link-styles   cursor-pointer" key={key}>
-              <div  />
-                <Img 
-               className="instagram-overlay"
-                fluid={image.node.childImageSharp.fluid}
-                alt={image.node.base.split('.'[0])} 
-              />
- <div className="instagram-bottom">
-                <span className="instagram-heart">
-                
-                </span>
- </div>
-              </div>
-            ))} 
-
-        </div>
+ <ul role="list" className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+      {data.allFile.edges.map((image,key) => (
+        <li key={key} className="relative cursor-pointer">
+          <div className="group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500 overflow-hidden">
+            <Img fluid={image.node.childImageSharp.fluid}
+                alt={image.node.base.split('.'[0])}  className="object-cover group-hover:opacity-75" />
+            <button type="button" className="absolute inset-0 focus:outline-none">
+              <span className="sr-only">View details for </span>
+            </button>
+          </div>
+       
+        </li>
+      ))}
+    </ul>
+     
 </SRLWrapper>
     </div>
   );

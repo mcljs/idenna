@@ -5,7 +5,7 @@ import SEO from '../components/Seo'
 import DelayedFallback from "../components/Tweet/DelayedFallback"
 import Video from '../video/VID-20210915-WA0000.mp4'
 import useDarkMode from "../hooks/useDarkMode"
-
+import Example from '../components/Tweet/example'
 
 const Articles = React.lazy(() => import("../components/Articles")) 
 const Layout = React.lazy(()=> import('../components/layout'))
@@ -98,7 +98,9 @@ const isSSR = typeof window === "undefined"
       
     <Articles />
 
- <Tweet />
+    <div className="bg-gray-100 py-8">
+    <Example />
+</div>
     <Email />  
   </Layout>
  </React.Suspense>
