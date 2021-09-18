@@ -22,7 +22,17 @@ const Layout = ({ children }) => {
 useDarkMode()
 
 
+  const acceptConsent = () => {
+    window.gtag?.('consent', 'update', {
+      ad_storage: 'granted',
+    })
+  }
 
+  const declineConsent = () => {
+    window.gtag?.('consent', 'update', {
+      ad_storage: 'denied',
+    })
+  }
 
 
   return (
@@ -39,10 +49,7 @@ useDarkMode()
         buttonText="Ok"
         buttonWrapperClasses="flex space-x-2 items-center"
         containerClasses="bg-white flex items-center space-x-2 p-2 sm:p-3"
-        contentClasses="m-0"
-        cookieName="cookie_consent"
-        cookieSecurity
-        declineButtonClasses="m-0 flex items-center justify-center px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-red-500 hover:bg-red-400"
+                declineButtonClasses="m-0 flex items-center justify-center px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-red-500 hover:bg-red-400"
         declineButtonText="No"
         enableDeclineButton
         expires={365}
@@ -50,8 +57,9 @@ useDarkMode()
         onAccept={acceptConsent}
         onDecline={declineConsent}
         sameSite="strict"
+        style={{display: 'flex'}}
       >
-        <p className="ml-3 text-sm font-medium text-black">
+        <p className="ml-3 text-sm font-medium text-white">
           Este sitio utiliza cookies para brindarle una mejor experiencia de usuario.
           Para obtener más información, consulte nuestra{' '}
           <a
