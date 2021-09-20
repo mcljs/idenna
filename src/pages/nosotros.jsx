@@ -59,7 +59,54 @@ const Nosotros = () => (
             </div>
           </div>
         </section>
+<section className="relative py-20">
+          <div
+            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 dark:bg-[#0791e6]"
+            style={{ height: "92px", transform: "translateZ(0)" }}
+          >
+            <svg
+              className="absolute bottom-0 overflow-hidden "
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              version="1.1"
+              viewBox="0 0 2560 100"
+              x="0"
+              y="0"
+            >
+              <polygon
+                className="text-white fill-current"
+                points="2560 0 2560 100 0 100"
+              ></polygon>
+            </svg>
+          </div>
 
+          <div className="container mx-auto px-4">
+            <div className="items-center flex flex-wrap">
+              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+              
+
+<h3 className="text-3xl font-semibold dark:text-white">
+                     Visión
+                  </h3>
+                  <p className="mt-4 text-lg leading-relaxed text-gray-700 dark:text-[#becde3]">
+                Ejercer la rectoría del Sistema Nacional para la Protección Integral de la infancia y la adolescencia a nivel nacional, que contribuya a un desarrollo pleno y armonioso de los niños, niñas y adolescentes, al aseguramiento y elevación de su calidad de vida, con una cultura de derechos para la protección, tomando en cuanta la diversidad pluriétnica y cultura la relevancia de un profundo cambio en las institucionales, garantizándole todos sus derechos.
+
+                  </p>
+              </div>
+              <div className="w-full md:w-5/12 ml-auto mr-auto px-4 mt-16 sm:mt-0">
+                <div className="md:pr-12">
+                     <StaticImage
+                  alt="..."
+                       className="max-w-full rounded-lg shadow-lg"
+
+                       src="../images/240660658_689149665352542_5233231189406845354_n.jpg"
+                />
+                                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 <section className="relative py-20">
           <div
             className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 dark:bg-[#0791e6]"
