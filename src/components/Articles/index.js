@@ -11,7 +11,7 @@ const Articles = (  ) => {
   return(
     
       <>
-        <h3 className=" py-2 bg-red-primary text-white  text-4xl text-center font-bold dark:bg-[#98ca3f] dark:text-[#03091e]">ACTUALIDAD</h3>
+        <h2 className=" text-3xl font-bold text-center text-gray-700 dark:text-[#03091e]">Actualidad:</h2>
         <section className="px-12 py-4 dark:bg-[#121f3d]">
   
       
