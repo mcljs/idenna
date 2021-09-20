@@ -11,9 +11,9 @@ const Articles = (  ) => {
   return(
     
       <>
-        <h2 className=" text-3xl font-bold text-center text-gray-700 dark:text-[#03091e]">Actualidad:</h2>
-        <section className="px-12 py-4 dark:bg-[#121f3d]">
-  
+      
+        <section className="px-12 py-4 dark:bg-[#121f3d] bg-gray-100">
+    <h2 className=" text-center order-1 text-gray-900 text-3xl font-extrabold tracking-tight mt-2 mb-4 dark:text-[#03091e] mt-2">Actualidad:</h2>
       
           
 
@@ -89,7 +89,7 @@ const Articles = (  ) => {
           <div key={index}>
             <div  class="grid md:grid-cols-2 grid-cols-1 rounded w-ful md:flex-row mb-10">
             <Img fluid={post.frontmatter.image.childImageSharp.fluid} class="block rounded-md h-64 md:h-32 m-4 md:m-0 object-cover" />
-              <div class="bg-white rounded md:px-4 px-1">
+              <div class="bg-white rounded md:px-4 px-2 py-2 shadow-lg">
              
               <div class="md:mt-0 text-gray-800 font-semibold text-xl mb-2 line-clamp-3">
                  {post.frontmatter.title}
