@@ -1,7 +1,8 @@
 import React, { useState, useRef } from "react"
 import { navigate } from "@reach/router"
 import { SearchIcon, XIcon } from '@heroicons/react/solid'
-import Image from '../../images/horizontal_01.png'
+import Image from '../../images/comision.jpg'
+import Link from '../link'
 
 const SearchForm = ({ initialQuery = "" }) => {
   // Create a piece of state, and initialize it to initialQuery
@@ -23,9 +24,13 @@ const SearchForm = ({ initialQuery = "" }) => {
     navigate(`/search?q=${q}`)
   }
   return (
-    <header className="flex relative z-[1] flex-none items-center border-[#e5e7eb] border-b">
-      <img src={Image} className="pt-4 pb-4"/> 
-        </header> 
+    <>
+      <Link to="https://forms.gle/YauVoTjo1eBARSRL7">
+    <header className="flex relative justify-center z-[1] flex-none items-center border-[#e5e7eb] border-b">
+      <img src={Image} className="pt-4 pb-4 md:w-[400px] w-full"/> 
+        </header>
+      </Link>
+    </>
   )
 }
 export default SearchForm

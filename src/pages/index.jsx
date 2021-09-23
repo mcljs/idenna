@@ -1,12 +1,13 @@
 import {StaticImage} from "gatsby-plugin-image"
-import React from "react"
+import React, {useEffect,useState} from "react"
 import Link from "../components/link"
 import SEO from '../components/Seo'
 import DelayedFallback from "../components/Tweet/DelayedFallback"
 import Video from '../video/VID-20210915-WA0000.mp4'
 import useDarkMode from "../hooks/useDarkMode"
 import Example from '../components/Tweet/example'
-
+import toast,{Toaster} from 'react-hot-toast'
+import { BellIcon } from '@heroicons/react/solid'
 const Articles = React.lazy(() => import("../components/Articles")) 
 const Layout = React.lazy(()=> import('../components/layout'))
 const Email = React.lazy(()=> import('../components/Email'))
@@ -24,6 +25,45 @@ const Tweet = React.lazy(()=> import('../components/Tweet/index'))
 
 const IndexPage = () => {
 
+
+  useEffect(()=> {
+ toast.custom((t) => (
+  <div
+    className={`${
+      t.visible ? 'animate-enter' : 'animate-leave'
+    } max-w-md w-full bg-white shadow-lg rounded-lg pointer-events-auto flex ring-1 ring-black ring-opacity-5`}
+  >
+    <div className="flex-1 w-0 p-4">
+      <div className="flex items-start">
+        <div className="flex-shrink-0 pt-0.5">
+          <BellIcon
+            className="h-10 w-10 rounded-full text-red-600"
+            src="../images/comision.jpg"
+            alt=""
+          />
+        </div>
+        <div className="ml-3 flex-1">
+          <p className="text-sm font-medium text-gray-900">
+            Tu participación es muy importante en la consulta y Debate de la ley para la Prevención y Erradicación del Abuso Sexual de Niñas, Niños y Adolescentes
+          </p>
+          <p className="mt-1 text-sm text-gray-500">
+            Selecciona la campana para mas información..
+          </p>
+        </div>
+      </div>
+    </div>
+    <div className="flex border-l border-gray-200">
+      <button
+        onClick={() => toast.dismiss(t.id)}
+        className="w-full border border-transparent rounded-none rounded-r-lg p-4 flex items-center justify-center text-sm font-medium text-indigo-600 hover:text-red-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+      >
+        Cerrar
+      </button>
+    </div>
+  </div>
+))
+
+  })
 
 useDarkMode()
 const isSSR = typeof window === "undefined"
@@ -65,9 +105,9 @@ const isSSR = typeof window === "undefined"
                 <div className="sm:flex sm:justify-center sm:mt-8 lg:justify-start mt-5">
                   <div className="rounded-md shadow">
                     <Link
-                      className="flex justify-center items-center py-3 w-full min-w-[160px] text-base font-medium text-red-primary bg-red-100 rounded-md border border-transparent md:text-lg "
-                      href="https://twitter.com/idennadistrito?lang=es"
                       
+                      className="flex justify-center items-center py-3 w-full min-w-[160px] text-base font-medium text-red-primary bg-red-100 rounded-md border border-transparent md:text-lg cursor-pointer"
+                                           
                     >
                       Twitter
                     </Link>
@@ -101,7 +141,8 @@ const isSSR = typeof window === "undefined"
     <div className="bg-gray-100 py-8">
     <Example />
 </div>
-    <Email />  
+    <Email />
+<Toaster toastOptions={{duration: 15000}}/>
   </Layout>
  </React.Suspense>
 
