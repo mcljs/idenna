@@ -34,7 +34,6 @@ import { TwitterTimelineEmbed } from 'react-twitter-embed'
 const actions = [
   {
     title: '',
-    href: '#',
     icon: BadgeCheckIcon,
     iconForeground: 'text-blue-700',
     iconBackground: 'bg-blue-50',
@@ -44,7 +43,6 @@ const actions = [
   },
   {
     title: '',
-    href: '#',
     icon: BadgeCheckIcon,
     iconForeground: 'text-blue-700',
     iconBackground: 'bg-blue-50',

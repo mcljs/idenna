@@ -8,6 +8,7 @@ import useDarkMode from "../hooks/useDarkMode"
 import Example from '../components/Tweet/example'
 import toast,{Toaster} from 'react-hot-toast'
 import { BellIcon } from '@heroicons/react/solid'
+import Search from "../components/Search"
 const Articles = React.lazy(() => import("../components/Articles")) 
 const Layout = React.lazy(()=> import('../components/layout'))
 const Email = React.lazy(()=> import('../components/Email'))
@@ -36,11 +37,7 @@ const IndexPage = () => {
     <div className="flex-1 w-0 p-4">
       <div className="flex items-start">
         <div className="flex-shrink-0 pt-0.5">
-          <BellIcon
-            className="h-10 w-10 rounded-full text-red-600"
-            src="../images/comision.jpg"
-            alt=""
-          />
+          <Search />
         </div>
         <div className="ml-3 flex-1">
           <p className="text-sm font-medium text-gray-900">
