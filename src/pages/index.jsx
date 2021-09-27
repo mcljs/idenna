@@ -40,12 +40,21 @@ const IndexPage = () => {
           <Search />
         </div>
         <div className="ml-3 flex-1">
+          <h6 className="text-md font-bold">   Foro Chat Gratis :</h6>
           <p className="text-sm font-medium text-gray-900">
-            Tu participación es muy importante en la consulta y Debate de la ley para la Prevención y Erradicación del Abuso Sexual de Niñas, Niños y Adolescentes
+         
+            Facilitadoras:<br/>
+            Abog/Coord. Elizth Perdomo <br/>
+            Psic. Paola Marcano <br />
+            T-Social. Yazmin Aranguibel
+   
           </p>
+       <Link clasName="text-sm text-red-700" to="tel:04147113515"> Telefono: 0414-711-3515</Link>
           <p className="mt-1 text-sm text-gray-500">
-            Selecciona la campana para mas información..
+Selecciona la campana para mas información..
+
           </p>
+          <p></p>
         </div>
       </div>
     </div>
