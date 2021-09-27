@@ -51,7 +51,7 @@ const SearchForm = ({ initialQuery = "" }) => {
  className="flex relative justify-center z-[1] flex-none items-center border-[#e5e7eb] border-b"
     >
       <SwiperSlide className="flex relative justify-center"><img src={Image1} className="pt-4 pb-4 md:w-[500px]  w-full "/> </SwiperSlide>
-      <SwiperSlide className="flex relative justify-center"><img src={Image2} className="pt-4 pb-4 md:w-[500px] w-full"/> </SwiperSlide>
+     
         <SwiperSlide className="flex relative justify-center"> <Link to="https://forms.gle/YauVoTjo1eBARSRL7"><img src={Image3} className="pt-4 pb-4 md:w-[400px] w-full"/> </Link> </SwiperSlide>
       
       ...
