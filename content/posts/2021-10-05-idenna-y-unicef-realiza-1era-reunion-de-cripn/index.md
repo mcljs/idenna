@@ -17,7 +17,7 @@ Hoy martes 05 de octubre se realizó en las instalaciones de la Sede Principal d
 
 Desde el IDENNA se planteó la necesidad de generar  un Sistema de Estadística Nacional de Indicadores relevantes de prevención y protección a la infancia y la adolescencia,  que permita la consolidación de  toda la información que se produce en las diferentes instancias del Estado en materia de niñez y adolescencia, que indique la realidad en cuanto a la cuantificación de las políticas públicas y de inversión social del Estado Venezolano, así como generar la fuente oficial de respuesta cuando sea requerido en el momento oportuno.
 
-![IDENNA-3](./photo_2021-10-01_13-29-5132121.jpg)
+![IDENNA-3](./photo_2021-10-05_15-05-24.jpg)
 
 De igual forma el  IDENNA como ente responsable en materia de derechos de niños, niñas y adolescentes, estableció la construcción de nuevos indicadores, que permitan coadyuvar, articular  y coordinar con otras instituciones gubernamentales que también generen políticas en la materia, la medición efectiva de  las necesidades de nuestra infancia a través de un sistema de indicadores adaptado a la demanda del Estado, contribuyendo así  a la cuantificación de las políticas públicas de protección integral a la niñez y la adolescencia, siempre en búsqueda fortalecer las herramientas estadísticas dirigidas a la calidad de atención y bienestar social de la niñez en nuestro país.
 
