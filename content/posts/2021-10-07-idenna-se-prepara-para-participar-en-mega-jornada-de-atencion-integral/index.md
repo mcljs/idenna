@@ -3,7 +3,7 @@ date: 2021-10-07 12:32:21
 tags: ["UNICEF","Jornada de Atención Integral"] 
 title: El IDENNA se prepara para participar en Mega Jornada de Atención Integral. 
 description: El día de ayer 06 de octubre la Dra. Luisana Rabicini Presidenta del IDENNA, en conjunto con su equipo técnico, se desplegó por la Parroquia Sucre Sector Propatria, específicamente en los espacios de la Casa del Obrero
-twitter_text: El IDENNA se prepara para participar en Mega Jornada de Atención Integral.  
+twitter_text: El IDENNA se prepara para participar en Mega Jornada de Atención Integral.
 image: ./photo_2021-10-07_09-09-15.jpg
 cover: ./photo_2021-10-07_09-09-15.jpg
 timeToRead: 4
