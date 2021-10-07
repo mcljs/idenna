@@ -17,7 +17,7 @@ El día de ayer 06 de octubre la Dra. Luisana Rabicini Presidenta del IDENNA, en
 
 Dicha actividad se desarrollara en el marco de la agenda de despliegue de la candidata del GPPSB para la Alcaldía del Municipio Bolivariano Libertador Almiranta Carmen Meléndez.
 
-Se prevé  que en esta jornada se atiendan mas de 500 niños y niñas del punto y círculo  y de comunidades aledañas con actividades recreativas y de atención en materia de salud y nutrición. Así mismo el IDENNA garantizará para esta Jornada un espacio dirigido a la Orientación Familiar a través de los COF (Centros de Orientación Familiar); de igual manera se contará con un Punto de Atención en materia de Defensoría de Niños, Niñas y Adolescentes, todo ello como parte de la Campaña de Avanzada Social IDENNA Contigo, donde el Plan de Crianza Amorosa representa el  primer eslabón  de lucha de la institución.
+Se prevé  que en esta jornada se atiendan mas de 500 niños y niñas del punto y círculo  y de comunidades aledañas con actividades recreativas y de atención en materia de salud y nutrición. Así mismo el IDENNA garantizará para esta Jornada un espacio dirigido a la Orientación Familiar a través de los COF Centros de Orientación Familiar; de igual manera se contará con un Punto de Atención en materia de Defensoría de Niños, Niñas y Adolescentes, todo ello como parte de la Campaña de Avanzada Social IDENNA Contigo, donde el Plan de Crianza Amorosa representa el  primer eslabón  de lucha de la institución.
 
 ![IDENNA-3](./2021-10-07-03.jpg)
 
