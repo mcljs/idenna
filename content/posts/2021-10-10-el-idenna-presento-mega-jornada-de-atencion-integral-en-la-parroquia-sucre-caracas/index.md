@@ -12,7 +12,7 @@ timeToRead: 4
 ![IDENNA](./photo_2021-10-10_02-03-17.jpg)
 
 
-El día de 08/10/2021, el IDENNA se hizo presente en la Mega Jornada de atención integral en la Casa del Obrero Sector Propatria de la Parroquia Sucre de la ciudad de Caracas.
+El día 08/10/2021, el IDENNA se hizo presente en la Mega Jornada de atención integral en la Casa del Obrero Sector Propatria de la Parroquia Sucre de la ciudad de Caracas.
 
 Esta jornada como parte de la iniciativa promovida por la Candidata del GPPSB para la Alcaldía del Municipio Bolivariano Libertador Almiranta Carmen Meléndez, se desarrolló con el propósito de brindarle atención integral a la población vulnerable de la zona y comunidades vecinas, es por ello que el IDENNA se desplegó en esta Mega Jornada, con  un equipo multidisciplinario junto a su presidenta Dra. Luisaura Ravicini, dándole a conocer a la población los planes y programas sociales orientados desde la institución como medidas de protección a nuestra niñez y adolescencia así como en materia de Defensoría de niños, niñas y adolescentes.  
 
